@@ -1,0 +1,52 @@
+/* .main{
+    background-color: red;
+    width: 400px;
+     height: 900px; 
+     width: 80%;
+     height: 100%;  
+    height: 50vh;
+    width: 70vw;
+}
+
+.right{
+    width: 50vw;
+    background-color: yellow;
+}
+ .right > img{
+    width: 100%;
+} */
+
+/* .main{
+  background-color: aqua;
+   width: 700px; 
+   min-width:300px;
+  max-width: 500px; 
+  min-height: 300px;
+  max-height: 600px;
+  overflow-y:auto;
+  width: 400px;
+}
+.main > img{
+     width: 100%;
+} */
+
+.card{
+    width: 400px;
+    height: 400px;
+    /* background-color: red; */
+    /* border-width: 10px; */
+    /* border-width: 10px 2px 3px 19px; */
+    /* border-top-width: 2px;
+    border-bottom-width: 20px;
+    border-left-width: 10px;
+    border-right-width: 12px; */
+    /* border-style: solid;
+    border-color: blue; */
+    /* border-color: blue saddlebrown red yellow; */
+    border: 5px solid grey;
+    margin: 10px;
+    /* margin-top: 2px; */
+    margin: 2px 4px 10px 30px;
+
+   
+}

@@ -1,0 +1,49 @@
+/*h1,i{
+    color: aqua;
+}
+p{
+  color: gold;  
+}
+body{
+    background-color:green ;
+}
+    
+*/
+/* div{
+    background-color: red;
+} */
+
+ /*------------------------------------------------universal selector
+  *{
+    background-color: blue;
+ } */
+/*=------------------------------------------------ Type selector/element
+p{
+    background-color: red;
+} */
+
+
+/*
+
+--------------------------------class selector
+.text{
+    background-color: gray;
+} */
+/* 
+----- -----------------------------ID slector
+
+#main-text{
+    color: purple;
+}
+#main-tex{
+    background-color: plum;
+} */
+
+
+/* 
+div > p{
+    color: red;
+}
+.list > li{
+    color: pink;
+} */

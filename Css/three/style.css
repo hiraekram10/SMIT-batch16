@@ -1,0 +1,22 @@
+/*
+--------color name 
+.nav>li {
+   color:salmon
+} */
+ p{
+    background: rgb(111, 0, 71);
+background: linear-gradient(0deg, rgba(111,0,71,1) 0%, rgba(201,100,82,1) 22%, rgba(253,187,45,1) 100%);
+ }
+ h1{
+    background-color: hsla(0, 69%, 24%, 0.843);
+ }
+div{
+    background-color: rgba(255, 255, 0, 0.596);
+    
+ }
+ div i {
+    background-color: palegreen;
+ }
+ p li{
+    background-color: red;
+ }

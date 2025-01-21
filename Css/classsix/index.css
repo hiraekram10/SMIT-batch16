@@ -1,0 +1,52 @@
+p{
+    /* line-height:50px ;
+    letter-spacing: 10px;
+    word-spacing: 20px; */
+    /* text-align:justify; */
+}
+/* 
+span{
+    background-color: brown;
+    text-align: right;
+    word-spacing: 20px;
+}
+.two{
+    text-indent: 100px;
+}
+
+h1{
+    color: #FFFFFF;
+background: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+} */
+
+/* p::first-letter{
+    color: red;
+}
+p::first-line{
+    background-color: blue;
+} */
+a{
+    color: yellow;
+    background-color: ;
+}
+a:visited{
+    color: aquamarine;
+}
+button:hover{
+  background-color: transparent;
+}
+button:active{
+    background-color: orange;
+}
+input:focus{
+    background-color: bisque;
+}
+.card{
+background-image: url('https://images.deliveryhero.io/image/foodpanda/home-vendor-pk.jpg');
+   width: 500px;
+   height: 500px;
+}
+p[class]{
+    background-color: blue;
+}

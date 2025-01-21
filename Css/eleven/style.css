@@ -1,0 +1,85 @@
+/* .parent{
+    background-color: grey;
+    width: 700px;
+    height: 500px;
+    margin: 20px auto;
+    position: relative;
+}
+.one{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:20%;
+    bottom: -100px;
+}
+.two{
+    background-color: rgb(27, 117, 57);
+    width: 250px;
+    height: 200px;
+} */
+
+
+/* .parent{
+    background-color: grey;
+    width: 700px;
+    height: 500px;
+    margin: 20px auto;
+   
+}
+.one{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+}
+.two{
+    background-color: rgb(27, 117, 57);
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: 150px;
+    right:50px;
+} */
+
+/* .parent{
+    background-color: grey;
+    width: 700px;
+    height: 500px;
+    margin: 20px auto;
+ 
+   
+}
+.one{
+    background-color: red;
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+
+}
+.two{
+    background-color: rgb(27, 117, 57);
+    width: 250px;
+    height: 200px;
+    z-index: 2;
+  
+} */
+
+
+.one{
+    background-color: red;
+    width: 50%;
+    height: 300px;
+    float: left;
+   
+
+}
+.two{
+    background-color: rgb(27, 117, 57);
+    width: 50%;
+    height: 300px;
+    float: right;
+   
+  
+}

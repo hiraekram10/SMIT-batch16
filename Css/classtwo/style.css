@@ -1,0 +1,43 @@
+/* ------------------- decendant selctor (parent space neste child)
+
+
+div u{
+     background-color: blueviolet;
+} */
+
+/* 
+-------------------- Adjacent sibling (first siling + second)
+.heading+h2{
+    color: green;
+} */
+ /* 
+------------------------------- Genral sibling (first ~ all sibling)
+ .heading~.sib{
+    color: red;
+ } */
+  .heading{
+    background-color: aqua;
+  }
+
+  h1{
+    background-color: green;
+  }
+  .heading{
+    background-color: red;
+  }
+
+  #head{
+    background-color: yellow;
+  }
+  .heading{
+    background-color: purple;
+  }
+  #head{
+    background-color: bisque;
+  }
+  h2{
+    background-color: aquamarine;
+  }
+  p{
+    background-color: yellow;
+  }

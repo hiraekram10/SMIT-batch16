@@ -1,0 +1,39 @@
+/* .two{
+    visibility: hidden;
+} */
+ul>li{
+    display: inline-block;
+}
+
+
+/* div{
+    width:200px;
+    height: 200px;
+    background-color: black;
+    border-image-source: url('./images.png');
+    border-image-slice: 43;
+    border-image-width: 20px;
+    border-image-repeat:stretch;
+   
+} */
+
+div{
+    width:200px;
+    height: 200px;
+    border:2px solid rgb(0, 0, 0);
+    /* border-radius: 40px;
+   border-radius:2px 5px 15px 30px ;
+   border-top-left-radius:40px; */
+ border-radius:  24% 76% 59% 41% / 41% 48% 52% 59% 
+    
+   
+}
+/* div {
+   background-image: url('');
+} */
+div:hover{
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.one{
+    border-radius: 200px 57px 197px 197px;
+}
