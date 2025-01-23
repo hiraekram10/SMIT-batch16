@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+     /* background-color: aqua; */
+     height: 10vh;
+     width: 100%;
+     display: flex;
+     /* flex-direction: row; */
+     justify-content: center;
+     /* flex-wrap: wrap-reverse; */
+     flex-flow: row wrap;
+     /* align-content: center; */
+     /* align-items: center; */
+     /* gap: 10px; */
+     box-shadow: 2px 2px 2px #aaa;
+
+}
+
+.box{
+    width: 100px;
+    /* background-color: bisque; */
+    text-align: center;
+    height: 100%;
+    padding: 2px;
+}
+
+.one{
+    /* order: 1;
+    flex-grow: 10; */
+}
+.two{
+    border-bottom: 1px solid grey;
+}
+.three{
+    border-bottom: 1px solid rgb(67, 13, 13);
+}
+.four{
+    border-bottom: 1px solid rgb(126, 24, 125);
+}
+.five{
+    /* order:2 ;
+    flex-grow: 20; */
+    border-bottom: 1px solid rgb(38, 220, 25);
+}
+.six{
+    border-bottom: 1px solid rgb(33, 90, 183);
+    /* flex-grow: 2; */
+}
