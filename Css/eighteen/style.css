@@ -1,0 +1,17 @@
+.nav-link{
+    /* background-color: red; */
+}
+.nav-link:hover{
+    background-color: #B9FF66;
+    border-radius: 5px;
+}
+.navbar-toggler{
+    border: none ;
+}
+.btn{
+    background-color:#B9FF66 ;
+}
+.btn:hover{
+    background-color:transparent;
+    border: 1px solid #B9FF66;
+}
