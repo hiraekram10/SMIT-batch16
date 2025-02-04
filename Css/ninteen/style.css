@@ -1,0 +1,37 @@
+.nav-link{
+    /* background-color: red; */
+}
+.nav-link:hover{
+    background-color: #B9FF66;
+    border-radius: 5px;
+}
+.navbar-toggler{
+    border: none ;
+}
+.btn{
+    background-color:#B9FF66 ;
+}
+.btn:hover{
+    background-color:transparent;
+    border: 1px solid #B9FF66;
+}
+.about-main{
+    background-color: blueviolet;
+}
+.top-head{
+    background-color: yellow;
+}
+.top-head h5{
+    background-color: #B9FF66;
+    border-radius: 6px;
+}
+.top-head p{
+    /* background-color: #B9FF66; */
+    font-size: 12px;
+}
+.cards-row{
+    background-color: aquamarine;
+}
+.card{
+    width: 400px;
+}
