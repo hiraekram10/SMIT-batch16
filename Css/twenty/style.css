@@ -1,3 +1,15 @@
+:root{
+    --green:#B9FF66;
+    --my-black:#000000;
+    --my-white:#ffff;
+    --grey:#dddddd
+
+    
+}
+.about-main{
+    width: 100%;
+}
+
 .nav-link{
     /* background-color: red; */
 }
@@ -8,18 +20,18 @@
 .navbar-toggler{
     border: none ;
 }
-.btn{
+/* .btn{
     background-color:#B9FF66 ;
-}
+} */
 .btn:hover{
     background-color:transparent;
     border: 1px solid #B9FF66;
 }
 .about-main{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 .top-head{
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .top-head h5{
     background-color: #B9FF66;
@@ -30,8 +42,63 @@
     font-size: 12px;
 }
 .cards-row{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .card{
-    width: 400px;
+    /* width: 500px; */
+    height: 250px;
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+}
+.green-card{
+    background-color: var(--green);
+}
+.black-card{
+  background-color:var(--my-black);
+  
+}
+.card-grey {
+background-color: var(--grey);
+}
+
+.card-img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.card-img > img{
+    /* background-color: aqua; */
+    width: 80%;
+    height: 80%;
+}
+.card-txt{
+    /* background-color: aquamarine; */
+    width:50%;
+}
+.card-txt h3{
+    font-weight: 900;
+    color: black;
+    padding: var(--mypad);
+}
+.black-card img{
+    background-color: var(--my-white);
+    border-radius: 1px;
+}
+.black-card h3{
+    color: var(--my-white);
+}
+.card-txt img{
+    /* background-color: blanchedalmond; */
+    width: 150px;
+}
+.qna-sec{
+    /* background-color: aquamarine; */
+    width: 100%;
+}
+.qna-sec .qdiv{
+    background-color: var(--grey);
+    border-radius: 1.3rem;
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+
 }
