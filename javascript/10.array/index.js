@@ -54,17 +54,45 @@
 
 // ______________________________________________non-primitive (heap)
 // _________________________________copy by refrence
-var names = ["hirA","rida"]
-var copyarr = names
+
+
+// var names = ["hirA","rida"]
+// var copyarr = names
+
+// console.log(names);
+// console.log(copyarr);
+
+
+
+// copyarr[1] = 'haya'
+// console.log(names);
+// console.log(copyarr);
+
+
+
+// let  names= ['hira','hina','nida']
+// console.log(names);
+
+// names.pop()  // remove last element from array
+
+// console.log(names);
+
+
+let  names= ['hira','hina','nida']
+
+
+names.push("sana","haya")
 
 console.log(names);
-console.log(copyarr);
 
 
 
-copyarr[1] = 'haya'
-console.log(names);
-console.log(copyarr);
+
+
+
+
+
+
 
 
 
