@@ -14,7 +14,7 @@
 // copy of array :shallow copy,deep copy
 // let names= ["ayesha","sana","rida","haya"]
 
-// let copyArr = names.slice(1)
+// let copyArr = names.slice(0,)
 
 // console.log(names);
 // console.log(copyArr);
