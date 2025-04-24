@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.5/dist/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- <div class="container">
+      <header class="border-bottom lh-1 py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <a class="link-secondary" href="#">Subscribe</a>
+          </div>
+          <div class="col-4 text-center">
+            <a
+              class="blog-header-logo text-body-emphasis text-decoration-none"
+              href="#"
+              >Large</a
+            >
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <a class="link-secondary" href="#" aria-label="Search">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="mx-3"
+                role="img"
+                viewBox="0 0 24 24"
+              >
+                <title>Search</title>
+                <circle cx="10.5" cy="10.5" r="7.5"></circle>
+                <path d="M21 21l-5.2-5.2"></path>
+              </svg>
+            </a>
+            <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="nav-scroller py-1 mb-3 border-bottom">
+        <nav class="nav nav-underline justify-content-between">
+          <a class="nav-item nav-link link-body-emphasis active" href="#"
+            >World</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="#">U.S.</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#"
+            >Technology</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="#">Design</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Culture</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Business</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Politics</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Opinion</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Science</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Health</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Style</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Travel</a>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+     
+        <div
+          class="sidebar border border-right col-lg-2 p-0 bg-body-tertiary"
+        >
+          <div
+            class="offcanvas-md offcanvas-end bg-body-tertiary"
+            tabindex="-1"
+            id="sidebarMenu"
+            aria-labelledby="sidebarMenuLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="sidebarMenuLabel">
+                Company name
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                data-bs-target="#sidebarMenu"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div
+              class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto"
+            >
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-center gap-2 active"
+                    aria-current="page"
+                    href="#"
+                  >
+                    <svg class="bi" aria-hidden="true">
+                      <use xlink:href="#house-fill"></use>
+                    </svg>
+                    Dashboard
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <svg class="bi" aria-hidden="true">
+                      <use xlink:href="#file-earmark"></use>
+                    </svg>
+                    Orders
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <svg class="bi" aria-hidden="true">
+                      <use xlink:href="#cart"></use>
+                    </svg>
+                    Products
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <svg class="bi" aria-hidden="true">
+                      <use xlink:href="#people"></use>
+                    </svg>
+                    Customers
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <svg class="bi" aria-hidden="true">
+                      <use xlink:href="#graph-up"></use>
+                    </svg>
+                    Reports
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <svg class="bi" aria-hidden="true">
+                      <use xlink:href="#puzzle"></use>
+                    </svg>
+                    Integrations
+                  </a>
+                </li>
+              </ul>
+
+              <h6
+                class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-body-secondary text-uppercase"
+              >
+                <span>Saved reports</span>
+                <a
+                  class="link-secondary"
+                  href="#"
+                  aria-label="Add a new report"
+                >
+                  <svg class="bi" aria-hidden="true">
+                    <use xlink:href="#plus-circle"></use>
+                  </svg>
+                </a>
+              </h6>
+              <ul class="nav flex-column mb-auto">
+                <li class="nav-item">
+                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <svg class="bi" aria-hidden="true">
+                      <use xlink:href="#file-earmark-text"></use>
+                    </svg>
+                    Current month
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <svg class="bi" aria-hidden="true">
+                      <use xlink:href="#file-earmark-text"></use>
+                    </svg>
+                    Last quarter
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <svg class="bi" aria-hidden="true">
+                      <use xlink:href="#file-earmark-text"></use>
+                    </svg>
+                    Social engagement
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <svg class="bi" aria-hidden="true">
+                      <use xlink:href="#file-earmark-text"></use>
+                    </svg>
+                    Year-end sale
+                  </a>
+                </li>
+              </ul>
+
+              <hr class="my-3" />
+
+              <ul class="nav flex-column mb-auto">
+                <li class="nav-item">
+                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <svg class="bi" aria-hidden="true">
+                      <use xlink:href="#gear-wide-connected"></use>
+                    </svg>
+                    Settings
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <svg class="bi" aria-hidden="true">
+                      <use xlink:href="#door-closed"></use>
+                    </svg>
+                    Sign out
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        
+      </div>
+      <div class="col-lg-9">
+        <div
+          class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary"
+        >
+          <div class="col-lg-6 px-0">
+            <h1 class="display-4 fst-italic">
+              Title of a longer featured blog post
+            </h1>
+            <p class="lead my-3">
+              Multiple lines of text that form the lede, informing new readers
+              quickly and efficiently about what’s most interesting in this
+              post’s contents.
+            </p>
+            <p class="lead mb-0">
+              <a href="#" class="text-body-emphasis fw-bold"
+                >Continue reading...</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container w-50 d-flex align-items-center py-4 bg-body-tertiary"><main class="form-signin w-75 m-auto">
+        <form>
+          <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+          <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+      
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+      
+          <div class="form-check text-start my-3">
+            <input class="form-check-input" type="checkbox" value="remember-me" id="checkDefault">
+            <label class="form-check-label" for="checkDefault">
+              Remember me
+            </label>
+          </div>
+          <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+          <p class="mt-5 mb-3 text-body-secondary">© 2017–2025</p>
+        </form>
+      </main></div> -->
+
+    <script src="bootstrap-5.3.5/dist/js/bootstrap.min.js"></script>
+    <script>
+      /*
+ _______________________________________________________________Math.round () 
+1 . k bad 5 say kam  8.4898 --->8
+2 . k bad  5 ya 5 say zyda  8.7898 --->9
+var num = 8.59
+console.log(Math.round(num));
+ Math.round(4.66)
+5
+Math.round(4.378)
+4
+Math.round(4.5789)
+5
+Math.round(4.0)
+4
+Math.round(4.05)
+4
+*/
+
+      // var num = Math.ceil(2.367);
+      // console.log(num); //3
+
+      // var num = Math.ceil(2.056);
+      // console.log(num); //3
+
+      // var num = Math.ceil(2.0);
+      // console.log(num); //2
+
+      // var num = Math.floor(67.23)
+      // console.log(num);   //67
+
+      // var num = Math.floor(67.0)
+      // console.log(num);
+
+
+
+      var num = Math.random() * 6
+      console.log(num);
+      
+    </script>
+  </body>
+</html>
