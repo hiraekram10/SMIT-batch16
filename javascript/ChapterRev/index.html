@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+//         let arr = ["hira"]
+// let arr2 = new Array("hira","sana")
+
+
+// const map = new Map();
+
+// map.set("a", 1);   //set properties 2 first key, value
+// map.set("b", 2);
+// map.set("c", 3);
+// console.log(map.get("a"));   // alternative //obj.name ( value )
+// map.set("a", "hello");  // obj.name = 'new val'
+// console.log(map.get("a"));
+// console.log(map.size); // length   3 properties
+
+
+// map.delete("b");    //property delete
+
+// console.log(map);
+// const obj = {
+//     name:"hira",
+//     roll:"273864sdhf",
+// }
+// // Object.entries(obj) //array  return [[value,key],["oll",2378456]] 
+// Object.keys(obj)
+
+
+// const target = { a: 1, b: 2 };
+// const source = { b: 4, c: 5 };
+
+// const returnedTarget = Object.assign(target, source);
+
+// console.log(target);
+
+
+// console.log(returnedTarget);
+
+// const objj = { a: 1 };            //a: 1
+// const copy = Object.assign({ }, objj);
+// console.log(copy); // { a: 1 }
+
+
+// const obj = {
+//   prop: "hira",
+// };
+
+// Object.freeze(obj);  // obj properties not changable
+
+
+
+// console.log(obj.prop);
+
+
+let obj = {
+    namee:"hira",
+    details :{
+        personInfo:'a45 kjsahdjhv'
+    }
+
+}
+
+// let copy = {...obj}
+// copy.details.personInfo = '23764sdnbc' same change
+//  copy.namee = '23764sdnbc'
+let copy=  JSON.parse(JSON.stringify(obj));
+copy.details.personInfo = '23764sdnbc'
+console.log(copy);
+console.log(obj);
+
+
+
+
+
+
+    </script>
+</body>
+</html>
